@@ -20,3 +20,10 @@
 - `git checkout <HASH or HEAD~>`: if you forget to specify the file name, you end up in detached head state
   - `git checkout main`: go back to main
   - `git switch main`: go back to main
+
+- `git remote add <NAME> <URL>`: adds the <URL> as a remote with the name <NAME>
+  - <NAME> is by convention called `origin`
+  - `git remote rm <NAME>`: removes the remote called <NAME>
+- `git remote --verbose`: looks at all the remotes you have
+- `git push <WHERE> <WHAT>`: pushes the <WHAT> branch to <WHERE>
+  - `git push origin main`
