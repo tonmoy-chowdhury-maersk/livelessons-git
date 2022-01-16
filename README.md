@@ -9,3 +9,8 @@
 - `git log`: shows the log (history) of our commits
   - `git log --oneline`: shows the shorted oneline commit
 
+- `git diff`: compare current uncommitted state with last know git state
+  - `git diff --staged`: runs diff between the staging area and last known state
+
+- `git diff HEAD~<NUMBER>`: compares HEAD with commit <NUMBER> ago (relative to HEAD)
+- `git diff <HASH>`: compares HEAD with the commit in <HASH>
